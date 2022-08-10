@@ -16,7 +16,7 @@ include $(BUILD_PREBUILT)
 # Adding thundernest/k-9 as Prebuilt for now will add as source in newer android versions if I can.
 include $(CLEAR_VARS)
 LOCAL_MODULE := k9mail
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := apps/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
